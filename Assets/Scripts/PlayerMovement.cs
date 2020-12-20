@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && f > 0)
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             speed = runSpeed;
             triggerAnimation("isRunning", true);
